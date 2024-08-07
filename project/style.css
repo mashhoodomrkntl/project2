@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+}
+a {
+    text-decoration: none;
+}
+
+/* header section starts */
+header {
+    width: 100%;
+    padding: 26px 20px 20px 20px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    margin: auto;
+    align-items: center;
+    margin: auto;
+}
+nav a {
+    margin-right: 50px;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #181e4b;
+}
+/* header section ends */
+
+/* hero section starts */
+.hero-container {
+    height: 100vh;
+    width: 100%;
+}
+.hero-container .container {
+    display: flex;
+    max-width: 1180px;
+    margin: auto;
+    align-items: center;
+}
+.left-section {
+    width: 550px;
+}
+.left-section h3 {
+    color: #df6951;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: tahoma;
+    margin-bottom: 20px;
+}
+.left-section h1 {
+    font-size: 65px;
+    text-transform: capitalize;
+    color: #181e4b;
+    font-weight: bold;
+}
+.hero-container .left-section p {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #5e6282;
+    font-weight: bold;
+    font-family: tahoma;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.left-section .cta-btn {
+    text-transform: capitalize;
+    padding: 15px 25px;
+    background-color: #f1a501;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right-section {
+    position: relative;
+}
+.right-section img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.right-section .flight {
+    width: 110px;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+.right-section .flight2 {
+    width: 110px;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+}
+
+/* hero section ends */
+
+/* category section starts */
+.category-container {
+    width: 100%;
+    height: 100vh;
+}
+.category-container .container {
+    max-width: 1180px;
+    margin: auto;
+}
+.head-section {
+    margin-top: 40px;
+}
+.category-container .head-section h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #5e6282;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.category-container .head-section h1 {
+    text-transform: capitalize;
+    color: #14183e;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+}
+.card-container {
+    width: 250px;
+
+    padding: 40px 20px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 2px 2px 20px gray;
+    border-radius: 200px;
+}
+.card-container h3 {
+    font-size: 22px;
+    font-weight: normal;
+    color: #181e4b;
+    margin-top: 10px;
+}
+
+.card-container p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #181e4b;
+    margin-top: 20px;
+    text-align: left;
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/* category section ends */
+
+/* selling section starts */
+.card-section2 {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.card-container2 img {
+    width: 100%;
+}
+.card-container2 {
+    box-shadow: 3px 3px 30px gray;
+    border-radius: 15px;
+}
+
+/* selling section ends */
+
+/* booking section starts */
+
+.booking .container {
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+}
+
+
+
+.booking .left-section h4 {
+    font-size: 20px;
+    color: #5e6282;
+    text-transform: capitalize;
+    font-family: tahoma;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+.booking .left-section h2 {
+    font-size: 50px;
+    color: #14183e;
+    font-family: helvetica;
+    font-weight: 600;
+    font-style: normal;
+}
+.booking .left-section .img-container .h-p {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.img-container .img-wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    
+}
+.img-container .img-wrapper img{
+    margin-right: 20px;
+}
+ .h-p h5{
+    font-size: 19px;
+    color: #5e6282;
+    font-family: tahoma;
+    letter-spacing: 1px;
+    
+    
+    
+
+}
+.img-container{
+    margin-top: 40px;
+}
+ .h-p p{
+    font-size: 16px;
+    color: #5e6282;
+    font-family: tahoma;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-weight: normal;
+
+}
+.booking .right-section .img-wrapper img{
+    padding: 20px;
+
+}
+.booking .right-section .img-wrapper{
+    box-shadow: 36px -35px 67px 23px #cdeafa;
+    border-radius: 15px;
+}
+
+.booking .right-section .img-wrapper h4{
+    font-size: 18px;
+    color: #5e6282;
+    text-transform: capitalize;
+    font-family: tahoma;
+    font-weight: 500;
+    padding: 12px 8px;
+    text-align: center;
+}
+/* booking section ends */
+
+/* logo section starts */
+
+.logo-section{
+    margin-top: 100px;
+}
+.logo-section .container{
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+/* logo section ends */
+
+/* foote section starts */
+
+.footer{
+    margin-top: 100px;
+    background-color: rgb(230, 230, 230);
+}
+.footer-container{
+    padding: 20px 0;
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container a{
+    display: block;
+    color: #5e6282;
+    padding: 7px 0;
+    font-size: 20px;
+}
+.company h3{
+    margin-bottom: 12px;
+}
+.left{
+    max-width: 207px;
+ 
+}
+.left h2{
+  font-size: 44px;
+  color: #14183e;
+  font-style: normal;
+  font-family: tahoma;
+  
+
+
+
+
+}
+.left p{
+    margin-top: 25px;
+  font-size: 16x;
+  color: #5e6282;
+  font-style: normal;
+  font-family: tahoma;
+}
+.ad{
+   
+    text-align: center;
+padding: 30px 0;
+text-transform: capitalize;
+font-size: 18px;
+color: #4b5bf0;
+}
+/* foote section ends */
